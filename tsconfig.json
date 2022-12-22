@@ -1,0 +1,22 @@
+{
+  "files": [
+    "./src/api_main.ts",
+    "./src/init_function.ts",
+    "./src/update_wallet.ts",
+    "./src/update_player_stats.ts",
+    "./src/update_character_level.ts",
+    "./src/update_lootbox_count.ts",
+    "./src/lootbox.ts"
+  ],
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outFile": "../modules/index.js",
+    "typeRoots": [
+      "./node_modules/"
+    ],
+  }
+}
