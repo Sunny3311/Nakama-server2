@@ -29,7 +29,6 @@ services:
       - prometheus
     volumes:
       - /d/Game Development/Server/nakama:/nakama/data
-      - ./:/nakama/data
     expose:
       - "7349"
       - "7350"
