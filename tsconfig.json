@@ -1,12 +1,12 @@
 {
   "files": [
-    "./backend/src/api_main.ts",
-    "./backend/src/init_function.ts",
-    "./backend/src/update_wallet.ts",
-    "./backend/src/update_player_stats.ts",
-    "./backend/src/update_character_level.ts",
-    "./backend/src/update_lootbox_count.ts",
-    "./backend/src/lootbox.ts"
+    "./src/api_main.ts",
+    "./src/init_function.ts",
+    "./src/update_wallet.ts",
+    "./src/update_player_stats.ts",
+    "./src/update_character_level.ts",
+    "./src/update_lootbox_count.ts",
+    "./src/lootbox.ts"
   ],
   "compilerOptions": {
     "target": "ES5",
